@@ -1,6 +1,9 @@
 module Internal.Placement exposing (Placement(..), toAttribute)
 
-import Element exposing (Attribute, Element)
+import Ui
+import Ui.Anim
+import Ui.Layout
+import Ui.Prose
 
 
 type Placement
@@ -8,11 +11,11 @@ type Placement
     | Below
 
 
-toAttribute : Placement -> (Element msg -> Attribute msg)
+toAttribute : Placement -> (Ui.Element msg -> Ui.Attribute msg)
 toAttribute placement =
     case placement of
         Above ->
-            Element.above
+            Ui.above
 
         Below ->
-            Element.below
+            Ui.below
