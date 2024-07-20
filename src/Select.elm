@@ -81,11 +81,7 @@ import Internal.UpdateOptions as UpdateOptions exposing (UpdateOption)
 import Internal.View.ElmUi as View
 import Select.Filter exposing (Filter)
 import Ui
-import Ui.Anim
-import Ui.Events
 import Ui.Input as Input
-import Ui.Layout
-import Ui.Prose
 
 
 

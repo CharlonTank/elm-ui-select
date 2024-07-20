@@ -1,9 +1,6 @@
 module Internal.Placement exposing (Placement(..), toAttribute)
 
 import Ui
-import Ui.Anim
-import Ui.Layout
-import Ui.Prose
 
 
 type Placement
